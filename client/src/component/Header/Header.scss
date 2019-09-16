@@ -1,0 +1,39 @@
+
+@font-face {
+    font-family:"KurieroDika";
+    src: url('../../fonts/Kuriero\ Esperanto\ Dika/Kuriero Esperanto Dika.ttf') format('truetype');
+}
+
+
+body {
+    background-image: url("../../assets/hero1.jpg");
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+
+    &__title {
+        display: flex;
+        margin: 1rem;
+        font-family: KurieroDika;
+        color: #fff;
+
+        &--name {
+            margin-right: 2rem;
+        }
+    }
+
+    &__text {
+        margin: 8rem auto;
+        font-family: KurieroDika;
+        color: #fff;
+        font-size: 30px;
+    }
+
+}

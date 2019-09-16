@@ -1,0 +1,74 @@
+// the code below was inspired by Hung Nguyen and Mark Bowley on codepen...
+
+.bubble {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    position: absolute;   
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 0.9);
+}
+
+.bubble:after {
+    box-shadow: inset 0 20px 50px 90px rgba(255, 255, 255, 0.3);
+	border-radius: 100%;
+	content: "";
+    height: 20px;
+    left: 10px;
+    top: 5px;
+	position: absolute;
+	width: 20px;
+}
+
+
+.one {
+    transform: scale(1.1);
+    opacity: 0.7;
+    animation: moveclouds 20s linear infinite, sideway 4s ease-in-out infinite alternate;
+}
+
+.two {
+    transform: scale(1.5);
+    opacity: 0.8;
+    animation: moveclouds 23s linear infinite, sideway 3s ease-in-out infinite alternate;
+}
+
+.three {
+    transform: scale(0.7);
+    opacity: 0.9;
+    animation: moveclouds 15s linear infinite, sideway 4s ease-in-out infinite alternate;
+}
+
+.four {
+    transform: scale(2.2);
+    opacity: 0.8;
+    animation: moveclouds 29s linear infinite, sideway 5s ease-in-out infinite alternate;
+    left: 60%;
+	top: 50%;
+}
+
+
+.five{
+    transform: scale(1.1);
+    opacity: 0.8;
+    animation: moveclouds 20s linear infinite, sideway 4s ease-in-out infinite alternate;
+    left: 80%;
+	top: 70%;
+}
+
+@keyframes moveclouds {
+    0% { 
+        top: 500px;
+    }
+    100% { 
+        top: -500px;
+    }
+}
+
+@keyframes sideway { 
+    0% { 
+        margin-left:10px;
+    }
+    100% { 
+        margin-left:250px;
+    }
+}
