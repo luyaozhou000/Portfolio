@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.053d882a.chunk.css",
+    "main.js": "/static/js/main.826089a4.chunk.js",
+    "main.js.map": "/static/js/main.826089a4.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.488beccc.js",
+    "runtime~main.js.map": "/static/js/runtime~main.488beccc.js.map",
+    "static/js/2.56002de2.chunk.js": "/static/js/2.56002de2.chunk.js",
+    "static/js/2.56002de2.chunk.js.map": "/static/js/2.56002de2.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.cdf415b1181601bee4b36ffdd63f5a07.js": "/precache-manifest.cdf415b1181601bee4b36ffdd63f5a07.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.053d882a.chunk.css.map": "/static/css/main.053d882a.chunk.css.map",
+    "static/media/Jump.mp4": "/static/media/Jump.0ebbb00b.mp4",
+    "static/media/Header.scss": "/static/media/hero1.66a4640a.jpg",
+    "static/media/yaya.jpg": "/static/media/yaya.c68eb7c2.jpg"
+  }
+}
